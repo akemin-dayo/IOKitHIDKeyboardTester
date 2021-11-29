@@ -14,6 +14,8 @@ I actively use both of these products, which is how I noticed the bug in the fir
 
 Also of note is that this issue affects some macOS built-in hotkey-related functionality too, such as the "Press the Option key five times to toggle Mouse Keys" feature that many use to quickly toggle locking their MacBook's built-in trackpad.
 
+For more information, please refer to [my writeup regarding this issue](https://gist.github.com/akemin-dayo/0e7291b85efc107427b5b12e6d6608bd).
+
 ---
 
 ## IMPORTANT — PLEASE READ THIS, IF NOTHING ELSE
