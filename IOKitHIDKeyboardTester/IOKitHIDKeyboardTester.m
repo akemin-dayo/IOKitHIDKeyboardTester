@@ -55,7 +55,7 @@ int main(void) {
 		NSLog(@"IOKitHIDKeyboardTester started on macOS %@ (%s)", [[NSProcessInfo processInfo] operatingSystemVersionString], unameStruct.machine);
 		NSLog(@"https://github.com/akemin-dayo/IOKitHIDKeyboardTester");
 		
-	    NSLog(@"AXIsProcessTrusted() == %d", AXIsProcessTrusted());
+		NSLog(@"AXIsProcessTrusted() == %d", AXIsProcessTrusted());
 		if (!AXIsProcessTrusted()) {
 			NSLog(@"IOKitHIDKeyboardTester does not have Accessibility/TCC authorisation. Opening the Security & Privacy → Accessibility preference pane…");
 			// If the System Preferences app is already open, the below openURL call will (benignly) fail with the following error:
